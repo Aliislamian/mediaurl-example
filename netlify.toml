@@ -3,6 +3,7 @@
   publish = "build"  # This should be the directory where your TypeScript build outputs the files
 
 [[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
+from = "/*"
+to = "/index.html"
+status = 200
+
