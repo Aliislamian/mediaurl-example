@@ -1,0 +1,8 @@
+[build]
+  command = "npm run build"  # Adjust this to your TypeScript build script
+  publish = "build"  # This should be the directory where your TypeScript build outputs the files
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
